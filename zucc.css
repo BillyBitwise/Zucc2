@@ -1,0 +1,76 @@
+
+main		{margin:	10px 50px 10px 75px; }
+span		{display:	block-inline; }
+
+body
+{	width:				1200px;
+	margin:				30px 0 0 0;
+	color:				yellow;
+	background-color: 	#000;
+}
+
+#message
+{	width:				400px;
+	height:				75px;
+	margin:				20px 0 0 50px;
+	background-color: 	#000;
+}
+
+#message span
+{	float:				right;
+	width:				300px;
+	height:				40px; 
+	color:				orange;
+}
+
+#message p
+{	display:			block;
+	width:				60px;
+	height:				30px; 
+}
+
+#board
+{ 	padding:			30px 20px 20px 50px;
+	background-color:	#111;
+	line-height:		5px;
+	float:				left;
+}
+
+#p1
+{	margin:				0 0 0 50px;
+	width:				275px;
+	height:				100px;
+	display:			inline-block;
+}
+
+#p1 div { 				width: 125px;} 
+#p1 span{				float: right;
+						color: orange;}
+
+#arrows 
+{	margin:				50px 0 0 50px;
+	display:			block;
+	float: 				left;
+
+}
+
+
+.arrow
+{	height:				25px;
+	width:				25px;
+	border-radius:		30%;
+}
+
+.pixl
+{	width:				10px;
+	height:				10px;
+	margin:				1px;
+	color: 				#fff;
+	background-color: 	#444;
+	font-size:			7px;
+	padding:			0;
+	border:				2px solid #333;
+	border-left:		1px solid #665;
+	border-bottom: 		1px solid #665;
+	vertical-align: 	top;
+}

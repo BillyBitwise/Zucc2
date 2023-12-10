@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel= "stylesheet" href= "zucc.css">
+	<title>Zucker</title>
+	
+</head>
+<body>
+	
+	<main>
+
+		<div id= "message">
+			<span id= "level"> </span>
+			<span id= "mission"> </span>	
+			<p>Level</p>
+			<p>Mission</p>		
+		</div> <br>
+
+		<div id= "board"></div> <br>
+		
+		<div id= "p1">
+			<div>Snake:		<span id= "name"	></span></div>
+			<div>Lives:		<span id= "lives"	></span></div>
+			<div>Speed:		<span id= "speed"	></span></div>
+			<div>Apples:	<span id= "apples"	></span></div>
+			<div>Points:	<span id= "points"	></span></div>
+			<div>Clock:		<span id= "clock"	></span></div>
+
+		</div>
+
+	</main>
+
+	<div id= "arrows">
+		<img 	id= "ul"		class= "arrow">	</img>
+		<img 	id= "u"			class= "arrow"			src= "images/north.png"	onclick= "direct(this.id)">	</img>
+		<img 	id= "ur"		class= "arrow">	</img> <br>
+		<img 	id= "l"			class= "arrow"			src= "images/west.png"	onclick= "direct(this.id)">	</img>		
+		<img 	id= "m"			class= "arrow"> </img>
+		<img 	id= "r"			class= "arrow"			src= "images/east.png"	onclick= "direct(this.id)">	</img> <br>
+		<img 	id= "dl"		class= "arrow">	</img>
+		<img 	id= "d"			class= "arrow"			src= "images/south.png"	onclick= "direct(this.id)">	</img>
+		<img 	id= "dr"		class= "arrow">	</img> <br>
+	</div>
+
+
+	<script src= "zucc.js"></script>
+	
+</body>
+</html>
